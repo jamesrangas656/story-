@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <h1>Story Book</h1>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Stories</a>
+            <a href="#">About</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Step Into a World of Stories</h2>
+            <p>
+                Discover magical adventures, wonderful characters,
+                and stories waiting to be explored.
+            </p>
+            <button>Explore Stories</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-image">
+            <img src="book.jpg" alt="About">
+        </div>
+        <div class="about-content">
+            <h2>About Our Storybook</h2>
+            <p>
+                Story Book is a collection of simple and inspiring
+                stories created for readers who love imagination,
+                adventure, and wonderful characters.
+            </p>
+            <p>
+                Choose a story and begin your next adventure.
+            </p>
+        </div>
+    </section>
+
+    <!-- Story Collection  -->
+    <section class="stories">
+        <h2>Featured Stories</h2>
+        <p class="section-description">
+            Choose a story and discover a new world.
+        </p>
+
+        <div class="story-container">
+
+            <!-- Story 1 -->
+            <div class="story-card">
+                <img src="harrypotter.jpg" alt="Harry Potter">
+                <h3>Harry Potter</h3>
+                <p>The boy who lived discovers he is a wizard and studies at Hogwarts to fight Voldemort.</p>
+                <button>Read More</button>
+            </div>
+
+            <!-- Story 2 -->
+            <div class="story-card">
+                <img src="ring.jpg" alt="LOTR">
+                <h3>The Lord of the Rings</h3>
+                <p>A small hobbit must destroy a powerful ring to stop the dark lord from ruling the world.</p>
+                <button>Read More</button>
+            </div>
+
+            <!-- Story 3 -->
+            <div class="story-card">
+                <img src="prince.jpg" alt="Dragon Prince">
+                <h3>The Dragon Prince</h3>
+                <p>Two princes and an elf return a baby dragon to its mother to stop a war between humans and dragons.</p>
+                <button>Read More</button>
+            </div>
+
+            <!-- Story 4 -->
+            <div class="story-card">
+                <img src="throne.jpg" alt="Game of Thrones">
+                <h3>Game of Thrones</h3>
+                <p>Kings and queens fight for the Iron Throne while dragons return and the dead rise in the north.</p>
+                <button>Read More</button>
+            </div>
+
+            <!-- Story 5 -->
+            <div class="story-card">
+                <img src="witcher.jpg" alt="The Witcher">
+                <h3>The Witcher</h3>
+                <p>Geralt of Rivia is a badass monster hunter with two swords, fighting monsters and destiny.</p>
+                <button>Read More</button>
+            </div>
+
+            <!-- Story 6  -->
+            <div class="story-card">
+                <img src="dragon.jpg" alt="House of the Dragon">
+                <h3>House of the Dragon</h3>
+                <p>House Targaryen fights for the throne with 17 dragons. The most brutal dragon civil war ever.</p>
+                <button>Read More</button>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
